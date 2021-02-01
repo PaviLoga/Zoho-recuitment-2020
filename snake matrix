@@ -1,0 +1,22 @@
+import java.util.Scanner; 
+class Test{
+public static void main(String args[])
+{
+    int a=7;
+    int num= 1;
+    int i,j;
+    Scanner sc =new Scanner(System.in);
+    Integer n = sc.nextInt();
+    for(i=0;i<n;i++){
+        for(j=a-n;j<a;j++)
+        {
+            System.out.print(num);
+            num++;
+           
+            
+        }
+         System.out.println();
+    }  
+}
+
+}
